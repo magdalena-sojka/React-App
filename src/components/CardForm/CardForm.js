@@ -13,8 +13,6 @@ const CardForm = props => {
       setTitle('');
     };
 
-
-
   const dispatch = useDispatch();
 
 	return (
