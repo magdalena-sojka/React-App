@@ -4,16 +4,25 @@ const initialState = {
       id: 1,
       title: 'Books',
       icon: 'book',
+      listId: '1',
     },
     {
       id: 2,
       title: 'Movies',
       icon: 'film',
+      listId: '1',
     },
     {
       id: 3,
       title: 'Games',
       icon: 'gamepad',
+      listId: '1',
+    },
+    {
+      id: 4,
+      title: 'Songs',
+      icon: 'music',
+      listId: '2',
     }
   ],
 
@@ -29,6 +38,19 @@ const initialState = {
   searchString: {
     searchString: '',
   },
+
+  lists: [
+    {
+      id: '1',
+      title: 'Things to do...',
+      description: 'Interesting things I want to check out'
+    },
+   {
+      id: '2',
+      title: 'Lorem Ipsum',
+      description: 'Lorem Ipsum'
+   }
+ ],
 };
 
 export default initialState;
