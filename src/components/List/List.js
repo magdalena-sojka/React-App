@@ -3,8 +3,8 @@ import Column from './../Column/Column';
 import ColumnForm from './../ColumnForm/ColumnForm';
 import { useSelector } from 'react-redux';
 //import { getAllColumns } from '../../redux/store.js';
-import { getListById } from '../../redux/store.js'; 
-import { getColumnsByList } from '../../redux/store.js';
+import { getListById } from '../../redux/listsReducer.js'; 
+import { getColumnsByList } from '../../redux/columnsReducer.js';
 import { useParams } from 'react-router';
 import SearchForm from '../SearchForm/SearchForm.js'
 import { Navigate } from 'react-router-dom';
