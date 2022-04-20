@@ -3,7 +3,7 @@ import { createStore, combineReducers } from 'redux';
 import listsReducer from './listsReducer';
 import columnsReducer from './columnsReducer';
 import cardsReducer from './cardsReducer';
-import searchStringReducer from './listsReducer';
+import searchStringReducer from './searchStringReducer';
 
 const subreducers = {
   lists: listsReducer,

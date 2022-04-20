@@ -9,7 +9,7 @@ const createActionName = actionName => `app/lists/${actionName}`;
 const ADD_LIST = createActionName('ADD_LIST');
 
 // action creators
-export const addList = payload => ({ type: 'ADD_LIST', payload });
+export const addList = payload => ({ type: ADD_LIST, payload });
 
 const listsReducer = (statePart = [], action) => {
   switch (action.type) {
